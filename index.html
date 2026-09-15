@@ -1,69 +1,999 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+  <meta
+    name="description"
+    content="Aditya Damodar Veer - Full Stack Developer Portfolio"
+  >
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Aditya Veer | Full Stack Developer</title>
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         
-      </header>
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png">
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+  <!--=============== REMIXICONS ===============-->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+  >
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            
-         </section>
+<body>
 
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            
-         </section>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
 
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-circle">A</span>
+        <span class="nav__logo-name">Aditya Veer</span>
+      </a>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+      <div class="nav__menu" id="nav-menu">
 
-      <!--========== SCROLL UP ==========-->
-      
+        <ul class="nav__list">
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">Experience</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#education" class="nav__link">Education</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+
+        </ul>
+
+        <!-- Close button -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__buttons">
+
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+
+      </div>
+
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+
+      <div class="home__container container grid">
+
+        <div class="home__content">
+
+          <div class="home__data">
+
+            <div class="home__title-wrapper">
+              <h1 class="home__title">
+                Aditya <br>
+                Damodar <br>
+                Veer
+              </h1>
+
+              <div class="home__rectangle"></div>
+            </div>
+
+            <div class="home__subtitle">
+              <span>Full Stack Developer</span>
+            </div>
+
+            <p class="home__description">
+              Third-year B.Tech Computer Science student and MERN
+              Full Stack Developer passionate about building scalable,
+              responsive and deployment-ready web applications.
+            </p>
+
+            <div class="home__buttons">
+
+              <a href="#projects" class="button">
+                View Projects
+                <i class="ri-arrow-right-line"></i>
+              </a>
+
+              <a href="#contact" class="button button__ghost">
+                Contact Me
+              </a>
+
+            </div>
+
+          </div>
+
+          <!-- Social links -->
+          <div class="home__social">
+
+            <a
+              href="https://github.com/ADIveer0012"
+              target="_blank"
+              class="home__social-link"
+              aria-label="GitHub"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+
+            <a
+              href="mailto:adityaveer.sit.comp@gmail.com"
+              class="home__social-link"
+              aria-label="Email"
+            >
+              <i class="ri-mail-line"></i>
+            </a>
+
+            <a
+              href="tel:+919356509186"
+              class="home__social-link"
+              aria-label="Phone"
+            >
+              <i class="ri-phone-line"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- Profile image placeholder -->
+        <div class="home__image">
+
+          <div class="home__profile">
+           <div class="home__image">
+    <img src="assets/img/profile.png" alt="Aditya Damodar Veer">
+</div>
+          </div>
+
+          <div class="home__shadow"></div>
+          <div class="home__box"></div>
+
+        </div>
+
+      </div>
+
+      <a href="#about" class="home__scroll">
+        <i class="ri-arrow-down-line"></i>
+        <span>Scroll Down</span>
+      </a>
+
+    </section>
+
+
+    <!--==================== ABOUT ====================-->
+   <section class="about section" id="about">
+
+  <div class="about__container container grid">
+
+    <div class="about__image">
+
+      <img
+        src="assets/img/profile.png"
+        alt="Aditya Damodar Veer"
+        class="about__img"
+      >
+
+      <div class="about__shadow"></div>
+
+    </div>
+
+    <div class="about__content">
+          <h2 class="section__title-1">
+            <span>About Me.</span>
+          </h2>
+
+          <p class="about__description">
+            I am a third-year B.Tech Computer Science student and
+            Full Stack Developer with experience building web
+            applications using the MERN stack, MySQL and REST APIs.
+          </p>
+
+          <p class="about__description">
+            I enjoy developing complete applications from responsive
+            frontends to backend APIs, database design and deployment.
+            My technical foundation also includes C++, DSA, OOP,
+            SQL and software development practices.
+          </p>
+
+          <div class="about__details">
+
+            <div class="about__detail">
+              <i class="ri-code-s-slash-line"></i>
+              <div>
+                <h3>Full Stack</h3>
+                <span>MERN Development</span>
+              </div>
+            </div>
+
+            <div class="about__detail">
+              <i class="ri-database-2-line"></i>
+              <div>
+                <h3>Databases</h3>
+                <span>MongoDB & MySQL</span>
+              </div>
+            </div>
+
+            <div class="about__detail">
+              <i class="ri-terminal-box-line"></i>
+              <div>
+                <h3>Problem Solving</h3>
+                <span>C++ & DSA</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<!--==================== SKILLS ====================-->
+<section class="skills section" id="skills">
+
+  <h2 class="section__title-1">
+    <span>My Skills.</span>
+  </h2>
+
+  <div class="skills__container container grid">
+
+    <!-- Frontend -->
+    <div class="skills__card">
+
+      <div class="skills__icon">
+        <i class="ri-code-s-slash-line"></i>
+      </div>
+
+      <h3 class="skills__title">Frontend</h3>
+
+      <div class="skills__list">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>React.js</span>
+        <span>Responsive Design</span>
+      </div>
+
+    </div>
+
+
+    <!-- Backend -->
+    <div class="skills__card">
+
+      <div class="skills__icon">
+        <i class="ri-server-line"></i>
+      </div>
+
+      <h3 class="skills__title">Backend</h3>
+
+      <div class="skills__list">
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>REST APIs</span>
+        <span>SQL</span>
+      </div>
+
+    </div>
+
+
+    <!-- Database -->
+    <div class="skills__card">
+
+      <div class="skills__icon">
+        <i class="ri-database-2-line"></i>
+      </div>
+
+      <h3 class="skills__title">Database</h3>
+
+      <div class="skills__list">
+        <span>MongoDB</span>
+        <span>MySQL</span>
+        <span>SQL</span>
+        <span>Database Design</span>
+      </div>
+
+    </div>
+
+
+    <!-- Programming -->
+    <div class="skills__card">
+
+      <div class="skills__icon">
+        <i class="ri-terminal-box-line"></i>
+      </div>
+
+      <h3 class="skills__title">Programming</h3>
+
+      <div class="skills__list">
+        <span>C++</span>
+        <span>C</span>
+        <span>Python</span>
+        <span>OOP</span>
+        <span>DSA</span>
+        <span>Problem Solving</span>
+      </div>
+
+    </div>
+
+
+    <!-- API Testing & Automation -->
+    <div class="skills__card">
+
+      <div class="skills__icon">
+        <i class="ri-test-tube-line"></i>
+      </div>
+
+      <h3 class="skills__title">API Testing & Automation</h3>
+
+      <div class="skills__list">
+        <span>REST API</span>
+        <span>Postman</span>
+        <span>Pytest</span>
+        <span>API Testing</span>
+        <span>Automation</span>
+      </div>
+
+    </div>
+
+
+    <!-- Tools & Development -->
+    <div class="skills__card">
+
+      <div class="skills__icon">
+        <i class="ri-tools-line"></i>
+      </div>
+
+      <h3 class="skills__title">Tools & Development</h3>
+
+      <div class="skills__list">
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>VS Code</span>
+        <span>SDLC</span>
+        <span>Agile</span>
+        <span>Clean Code</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+    <!--==================== EXPERIENCE ====================-->
+    <section class="experience section" id="experience">
+
+      <h2 class="section__title-1">
+        <span>Experience.</span>
+      </h2>
+
+      <div class="experience__container container">
+
+        <div class="experience__card">
+
+          <div class="experience__icon">
+            <i class="ri-briefcase-4-line"></i>
+          </div>
+
+          <div class="experience__content">
+
+            <span class="experience__date">
+              February 2026
+            </span>
+
+            <h3 class="experience__title">
+              Full Stack Developer Intern
+            </h3>
+
+            <h4 class="experience__company">
+              CodeAlpha Internship Program
+            </h4>
+
+            <p class="experience__description">
+              Developed a production-quality e-commerce web
+              application using MERN and MySQL technologies.
+              Independently completed the project within a
+              two-week development sprint.
+            </p>
+
+            <ul class="experience__list">
+
+              <li>
+                <i class="ri-check-line"></i>
+                Built full-stack frontend, backend and database
+                functionality.
+              </li>
+
+              <li>
+                <i class="ri-check-line"></i>
+                Implemented 15+ products across 4 categories.
+              </li>
+
+              <li>
+                <i class="ri-check-line"></i>
+                Worked using Agile development practices.
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!--==================== PROJECTS ====================-->
+    <section class="projects section" id="projects">
+
+      <h2 class="section__title-1">
+        <span>My Projects.</span>
+      </h2>
+
+      <div class="projects__container container grid">
+
+        <!-- Project 1 -->
+        <article class="projects__card">
+
+          <div class="projects__image">
+
+            <div class="projects__placeholder">
+              <i class="ri-group-line"></i>
+            </div>
+
+          </div>
+
+          <div class="projects__content">
+
+            <span class="projects__subtitle">
+              Full Stack Application
+            </span>
+
+            <h3 class="projects__title">
+              Social Media Application
+            </h3>
+
+            <p class="projects__description">
+              Full-stack social media application featuring
+              RESTful APIs, authentication and database
+              integration using MySQL and MongoDB.
+            </p>
+
+            <div class="projects__technologies">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>React.js</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+            </div>
+
+            <div class="projects__buttons">
+
+              <a
+                href="https://github.com/ADIveer0012/social-media-app"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-github-line"></i>
+                GitHub
+              </a>
+
+            </div>
+
+          </div>
+          <!-- Project 4 -->
+<article class="projects__card">
+
+  <div class="projects__image">
+
+    <div class="projects__placeholder">
+      <i class="ri-file-list-3-line"></i>
+    </div>
+
+  </div>
+
+  <div class="projects__content">
+
+    <span class="projects__subtitle">
+      C++ Application
+    </span>
+
+    <h3 class="projects__title">
+      C++ Test Case Management System
+    </h3>
+
+    <p class="projects__description">
+      Console-based test case management system for creating,
+      searching, updating, displaying and saving software test cases
+      using object-oriented programming and file handling.
+    </p>
+
+    <div class="projects__technologies">
+      <span>C++</span>
+      <span>C++17</span>
+      <span>OOP</span>
+      <span>STL</span>
+      <span>File Handling</span>
+      <span>Exception Handling</span>
+    </div>
+
+    <div class="projects__buttons">
+
+      <a
+        href="https://github.com/ADIveer0012/cpp-test-case-manager"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="projects__button"
+      >
+        <i class="ri-github-line"></i>
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+
+</article>
+        </article>
+
+
+        <!-- Project 2 -->
+        <article class="projects__card">
+
+          <div class="projects__image">
+
+            <div class="projects__placeholder">
+              <i class="ri-shopping-cart-2-line"></i>
+            </div>
+
+          </div>
+
+          <div class="projects__content">
+
+            <span class="projects__subtitle">
+              E-Commerce Platform
+            </span>
+
+            <h3 class="projects__title">
+              E-Commerce Web Platform
+            </h3>
+
+            <p class="projects__description">
+              Full-stack e-commerce platform with product
+              categories, shopping cart functionality and
+              backend database persistence.
+            </p>
+
+            <div class="projects__technologies">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+              <span>MySQL</span>
+            </div>
+
+            <div class="projects__buttons">
+
+              <a
+                href="https://github.com/ADIveer0012/simple-ecommerce-store"
+                target="_blank"
+                class="projects__button"
+              >
+                <i class="ri-github-line"></i>
+                GitHub
+              </a>
+
+            </div>
+
+          </div>
+          <!-- Project 3 -->
+<article class="projects__card">
+
+  <div class="projects__image">
+
+    <div class="projects__placeholder">
+      <i class="ri-code-box-line"></i>
+    </div>
+
+  </div>
+
+  <div class="projects__content">
+
+    <span class="projects__subtitle">
+      API Testing & Automation
+    </span>
+
+    <h3 class="projects__title">
+      QA API Automation
+    </h3>
+
+    <p class="projects__description">
+      Automated API testing project built to validate REST API
+      endpoints, response status codes, request and response data,
+      and API workflows using Python and Pytest.
+    </p>
+
+    <div class="projects__technologies">
+      <span>Python</span>
+      <span>Pytest</span>
+      <span>REST API</span>
+      <span>API Testing</span>
+      <span>Postman</span>
+      <span>Automation</span>
+    </div>
+
+    <div class="projects__buttons">
+
+      <a
+        href="https://github.com/ADIveer0012/qa-api-automation"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="projects__button"
+      >
+        <i class="ri-github-line"></i>
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+
+</article>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!--==================== EDUCATION ====================-->
+    <section class="education section" id="education">
+
+      <h2 class="section__title-1">
+        <span>Education.</span>
+      </h2>
+
+      <div class="education__container container">
+
+        <div class="education__item">
+
+          <div class="education__year">
+            2023 - 2027
+          </div>
+
+          <div class="education__content">
+
+            <i class="ri-graduation-cap-line"></i>
+
+            <h3>
+              B.E. Computer Science & Engineering
+            </h3>
+
+            <h4>
+              Sinhgad Institute of Technology, Pune
+            </h4>
+
+            <p>
+              CGPA: <strong>7.90 / 10</strong>
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="education__item">
+
+          <div class="education__year">
+            2023
+          </div>
+
+          <div class="education__content">
+
+            <i class="ri-book-open-line"></i>
+
+            <h3>
+              Higher Secondary Education
+            </h3>
+
+            <h4>
+              Dr. D.Y. Patil Junior College,
+              Talegaon Varale
+            </h4>
+
+            <p>
+              Percentage: <strong>68.67%</strong>
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="education__item">
+
+          <div class="education__year">
+            2021
+          </div>
+
+          <div class="education__content">
+
+            <i class="ri-school-line"></i>
+
+            <h3>
+              Secondary School Education
+            </h3>
+
+            <h4>
+              Adv. Bapusaheb Bhonde High School,
+              Lonavala
+            </h4>
+
+            <p>
+              Percentage: <strong>90.20%</strong>
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+
+      <div class="contact__container container grid">
+
+        <div class="contact__content">
+
+          <h2 class="section__title-1">
+            <span>Contact Me.</span>
+          </h2>
+
+          <p class="contact__description">
+            Have a project, internship opportunity or
+            collaboration in mind? Let's connect.
+          </p>
+
+          <div class="contact__info">
+
+            <div class="contact__item">
+
+              <i class="ri-mail-line"></i>
+
+              <div>
+                <span>Email</span>
+                <a href="mailto:adityaveer.sit.comp@gmail.com">
+                  adityaveer.sit.comp@gmail.com
+                </a>
+              </div>
+
+            </div>
+
+
+            <div class="contact__item">
+
+              <i class="ri-phone-line"></i>
+
+              <div>
+                <span>Phone</span>
+                <a href="tel:+919356509186">
+                  +91 9356509186
+                </a>
+              </div>
+
+            </div>
+
+
+            <div class="contact__item">
+
+              <i class="ri-map-pin-line"></i>
+
+              <div>
+                <span>Location</span>
+                <p>Pune, Maharashtra, India</p>
+              </div>
+
+            </div>
+
+
+            <div class="contact__item">
+
+              <i class="ri-github-line"></i>
+
+              <div>
+                <span>GitHub</span>
+                <a
+                  href="https://github.com/ADIveer0012"
+                  target="_blank"
+                >
+                  github.com/ADIveer0012
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="contact__form-wrapper">
+
+          <form class="contact__form" id="contact-form">
+
+            <div class="contact__form-group">
+
+              <label for="name">Name</label>
+
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                placeholder="Your name"
+                required
+              >
+
+            </div>
+
+
+            <div class="contact__form-group">
+
+              <label for="email">Email</label>
+
+              <input
+                type="email"
+                id="email"
+                name="user_email"
+                placeholder="Your email"
+                required
+              >
+
+            </div>
+
+
+            <div class="contact__form-group">
+
+              <label for="message">Message</label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Your message"
+                required
+              ></textarea>
+
+            </div>
+
+
+            <button type="submit" class="button">
+              Send Message
+              <i class="ri-send-plane-line"></i>
+            </button>
+
+            <p class="contact__message" id="contact-message"></p>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+
+    <div class="footer__container container">
+
+      <div class="footer__content">
+
+        <a href="#home" class="footer__logo">
+          Aditya Veer
+        </a>
+
+        <p class="footer__description">
+          Full Stack Developer
+        </p>
+
+      </div>
+
+      <div class="footer__social">
+
+        <a
+          href="https://github.com/ADIveer0012"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="ri-github-line"></i>
+        </a>
+
+        <a
+          href="mailto:adityaveer.sit.comp@gmail.com"
+          aria-label="Email"
+        >
+          <i class="ri-mail-line"></i>
+        </a>
+
+      </div>
+
+      <span class="footer__copy">
+        © 2026 Aditya Damodar Veer. All rights reserved.
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!--==================== SCROLL UP ====================-->
+  <a
+    href="#home"
+    class="scrollup"
+    id="scroll-up"
+  >
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+
+</body>
 </html>
